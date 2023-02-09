@@ -9,7 +9,7 @@
 Creation of two ec2 instances in two different regions `us-west-2` and `us-east-1`.
 
 ### Instructions
-1. We need two provider blocks for the two different regions. And create alias in the second one.
+1. We need two provider blocks for the two different regions. Create alias for the second region.
 ```
 provider "aws" {
   region = "us-west-2"
